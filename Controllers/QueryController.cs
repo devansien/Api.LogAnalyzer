@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Ansien.Api.LogAnalyzer.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class QueryController : Controller
     {
         // GET api/values
         [HttpGet]
