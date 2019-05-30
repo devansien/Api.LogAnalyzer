@@ -35,7 +35,8 @@ namespace Ansien.Api.LogAnalyzer
                     {
                         builder
                         //.WithOrigins("https://obento.azurewebsites.net")
-                        .WithOrigins("http://localhost:3000")
+                        //.WithOrigins("http://localhost:3000")
+                        .WithOrigins("http://ansien.com")
                         .AllowAnyOrigin()
                         .AllowAnyMethod()
                         .AllowAnyHeader()
